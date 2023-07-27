@@ -1,0 +1,152 @@
+body {
+    /* border: 2px solid rgb(255, 0, 0) ; */
+    width: 100bh;
+    background-color: #eff1f5;
+}
+
+.header {
+    /* width: fit-content; */
+    /* border: 4px solid blue ; */
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    width: auto;
+    padding: 16px;
+}
+
+.header-top {
+    /* border: 6px solid green ; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bolde;
+    color: #F9FAF8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px
+}
+
+.header-bottom {
+    /* border: 6px solid green ; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.sub-title {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.title-image img {
+    width: 400px;
+    height: 200px;
+}
+
+/* SECTION 2--------------------------- */
+.main-body {
+    background-color: white;
+    /* border: 4px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.main-heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.sub-body {
+    /* border: 5px solid brown; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    padding: 4px;
+    background-color: #3882f6;
+}
+
+/* SECTION 3 --------------------------- */
+.section3 {
+    background-color: #E5E7EB;
+    padding: 32px;
+    display: flex;
+    width: auto;
+    /* border: 4px solid salmon; */
+    justify-content: center;
+}
+
+.sec3{
+    /* background-color: aqua; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    /* border: 3px solid saddlebrown; */
+}
+
+.sign {
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: auto;
+    /* border: 4px solid burlywood; */
+}
+
+/* SECTION 4 ------------------------------- */
+/* footer ----------------------------------- */
